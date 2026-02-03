@@ -1,0 +1,24 @@
+{
+  "name": "imdhemy/clean-architecture-laravel",
+  "description": "Build testable, maintainable, and future-proof Laravel applications.",
+  "type": "book",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Dhemy",
+      "email": "imdhemy@gmail.com"
+    }
+  ],
+  "require": {
+    "hi-folks/ibis-next": "^2.0"
+  },
+  "scripts": {
+    "build": [
+      "./vendor/bin/ibis-next html",
+      "./vendor/bin/ibis-next pdf",
+      "./vendor/bin/ibis-next epub",
+      "./vendor/bin/ibis-next sample"
+    ],
+    "sort": "./vendor/bin/ibis-next content:sort"
+  }
+}
